@@ -1,3 +1,15 @@
+
+* {
+    border: solid red 2px;
+    font-family: monospace;
+}
+
 #map {
     height: 100%;
   }
+
+main, main h2, main aside, main textarea, main button, main section, main div {
+    border: 1px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
