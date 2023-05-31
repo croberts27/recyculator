@@ -60,13 +60,19 @@ button {
     max-width: 90%;
 }
 
-.navbar-start{
+.navbar{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    flex-wrap: wrap;
+    align-items: center;
     right: 0rem;
     height: 100%;
 }
 
+#navbarBasicExample {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
     
