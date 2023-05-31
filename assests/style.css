@@ -1,7 +1,38 @@
 
 * {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     font-family: monospace;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+.header li {
+    display: inline;
+    padding: 30px;
+    }
+
+.header li a{
+     
+    color: black;
+   
+}
+.header li a:hover {
+    color: green;
+}
+    
+.header ul #contact a{
+  
+    padding: 5px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 15px;
+    
+   
+}
+.header ul #contact a:hover{
+
+    background-color: green;
 }
 
 #map {
