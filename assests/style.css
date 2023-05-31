@@ -19,3 +19,12 @@ main, main h2, main aside, main textarea, main button, main section, main div {
     font-size: 26px;
     font-variant: small-caps;
 }
+
+.footer {
+    height: 88px;
+    text-align: center;
+    font-size: 16px;
+    font-variant: small-caps;
+    padding: 1rem 1.5rem 6rem;
+}
+    
