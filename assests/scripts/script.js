@@ -1,4 +1,18 @@
- 
+// DEPENDENCIES
+
+
+// DATA / STATE
+
+
+// FUNCTIONS
+
+
+// USER INTERACTIONS
+
+
+// INITIALIZATIONS
+
+
     let map;
 
 async function initMap() {
