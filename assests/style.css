@@ -24,6 +24,14 @@ button {
     font-variant: small-caps;
 }
 
+#content-cards {
+    height: 200px;
+}
+
+#map-area {
+    height: 300px;
+}
+
 .footer {
     height: 88px;
     text-align: center;
