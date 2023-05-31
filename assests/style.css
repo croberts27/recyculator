@@ -53,4 +53,20 @@ button {
     font-variant: small-caps;
     padding: 1rem 1.5rem 6rem;
 }
+
+#mascot {
+    max-height: 3.75rem;
+    height: 100%;
+    max-width: 90%;
+}
+
+.navbar-start{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0rem;
+    height: 100%;
+}
+
+
     
