@@ -13,6 +13,10 @@ main, main h2, main aside, main textarea, main button, main section, main div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+button {
+    margin: 10px 0;
+}
+
 #welcome-header {
     height: 40px;
     text-align: center;
