@@ -18,9 +18,7 @@
     font-family: monospace;
 }
 
-#map {
-    height: 100%;
-  }
+
 
 main, main h2, main aside, main textarea, main button, main section, main div {
     border: 1px solid red;
@@ -44,9 +42,22 @@ button {
     height: 200px;
 }
 
-#map-area {
-    height: 300px;
-}
+
+#map {
+  
+    height: 48%;
+
+  }
+  
+
+  html,
+  body {
+    height: 100%;
+    margin: 0px;
+
+    padding: 0;
+  }
+
 
 .footer {
     height: 88px;
