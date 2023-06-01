@@ -47,7 +47,7 @@ button {
 }
 
 #map {
-    height: 100%;
+    height: 90%;
   }
   
   /* 
@@ -55,7 +55,7 @@ button {
    */
   html,
   body {
-    height: 100%;
+    height: 90%;
     margin: 0;
     padding: 0;
   }
