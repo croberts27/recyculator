@@ -170,6 +170,7 @@ function makeRecycleCard() {
   recycleCard = document.createElement("div")
   recycleCard.textContent = searchInputEl.value
   recycleInfoEl.appendChild(recycleCard)
+  
 }
 
 // USER INTERACTIONS
@@ -178,6 +179,11 @@ searchBtnEl.addEventListener("click", function() {
   // 1. the search returns a card with information on the recyclable item
   console.log(searchInputEl.value)
   makeRecycleCard()
+ searchInputEl.value = "";
+
+  
+  
+  
   // 2. recycling locations are identified near the user's location
 
 
