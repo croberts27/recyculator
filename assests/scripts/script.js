@@ -94,17 +94,15 @@ document.addEventListener('click', () => {
 // INITIALIZATIONS
 
 
-//     let map;
+    let map;
 
-// async function initMap() {
-//   const { Map } = await google.maps.importLibrary("maps");
-//   map = new Map(document.getElementById("map"), {
-//     center: { lat: -34.397, lng: 150.644 },
-//     zoom: 8,
-//   });
+  function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
 
 
 // initMap();
-// }
+}
 
-// // AIzaSyAR8nmcULAcf5L45ZkY1-WwYw053-QXGCQ
