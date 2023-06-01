@@ -2,6 +2,7 @@
 var searchBtnEl = document.querySelector("#search-button")
 var searchInputEl = document.querySelector("#search-input")
 var recycleInfoEl = document.querySelector("#recyclable-items-container")
+var recycleCard = document.querySelector("#recycle-card")
 
 // //creates the array of recyclable items
 // var recyclableItems = [
@@ -141,7 +142,7 @@ var recyclableItems = [
 console.log(recyclableItems);
 
 // this is where empty variables will go
-var recycleCard;
+
 
 
 
@@ -166,8 +167,10 @@ $( function(){
   });
 });
 
-function makeRecycleCard() {
-  recycleCard = document.createElement("div")
+function fillRecycleCard() {
+  if (recycleCard.textContent !== " ") {
+    recycleCard.textContent = " "
+  }
   recycleCard.textContent = searchInputEl.value
   recycleInfoEl.appendChild(recycleCard)
 }
@@ -177,7 +180,7 @@ function makeRecycleCard() {
 searchBtnEl.addEventListener("click", function() {
   // 1. the search returns a card with information on the recyclable item
   console.log(searchInputEl.value)
-  makeRecycleCard()
+  fillRecycleCard()
   // 2. recycling locations are identified near the user's location
 
 
