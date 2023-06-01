@@ -67,10 +67,10 @@ button {
     padding: 1rem 1.5rem 6rem;
 }
 
-#mascot {
+#logo {
     max-height: 3.75rem;
-    height: 100%;
-    max-width: 90%;
+    height: 150%;
+    max-width: 150%;
 }
 
 .navbar{
