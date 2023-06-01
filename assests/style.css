@@ -46,6 +46,7 @@ button {
 #map {
   
     height: 48%;
+
   }
   
 
@@ -53,6 +54,7 @@ button {
   body {
     height: 100%;
     margin: 0px;
+
     padding: 0;
   }
 
