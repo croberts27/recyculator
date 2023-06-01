@@ -35,8 +35,3 @@ fetch('https://api.geoapify.com/v1/ipinfo?apiKey=' + geoApifyApiKey)
     .then(response => response.json())
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
-
-
-
-
-
