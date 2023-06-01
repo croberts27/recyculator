@@ -145,6 +145,7 @@ console.log(recyclableItems);
 
 // FUNCTIONS
 
+// This is the autocomplete function- when a user starts to enter an item to recycle, the autocomplete fills in the search from the array below
 $( function(){
   var itemsToRecycle = [
     "Plastic Bottles",
@@ -164,9 +165,18 @@ $( function(){
 });
 
 // USER INTERACTIONS
-
+// When a user clicks on the search button, a series of events takes place:
 searchBtnEl.addEventListener("click", function() {
+  // 1. the search returns a card with information on the recyclable item
   console.log(searchInputEl.value)
+
+  // 2. recycling locations are identified near the user's location
+
+
+  // 3. the recycling locations are displayed on the map
+
+
+  // 4. a card displays information on the nearest location
 
 })
 
