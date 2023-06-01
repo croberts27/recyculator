@@ -47,6 +47,7 @@ var recyclableItems = [
 ];
 // DATA / STATE
 
+
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
   //get the recyclable items container
@@ -92,8 +93,54 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
-=======
-// var geoApifyApiKey = "e2e76a6a2e2341f681a4abfd52c7ec27"
+var geoApifyApiKey = "e2e76a6a2e2341f681a4abfd52c7ec27"
+var recyclableItems = [
+  {
+    item: "Plastic Bottles",
+    disposal: "Make sure to empty and rise them before recycling."
+  },
+  {
+    item: "Aluminum Cans",
+    disposal: "Make sure to rinse them before recycling."
+  },
+  {
+    item: "Glass Bottles",
+    disposal: "Make sure to rinse them before recycling.",
+  },
+  {
+    item: "Newspapers",
+    disposal: "Make sure to keep them clean and dry before recycling."
+  },
+  {
+    item: "Cardboard",
+    disposal: "Make sure to flatten it before recycling."
+  },
+  {
+    item: "Paper",
+    disposal: "Make sure to keep it clean and dry before recycling."
+  },
+  {
+    item: "Steel Cans",
+    disposal: "Make sure to rinse them before recycling."
+  },
+  {
+    item: "Batteries",
+    disposal: "Make sure to rinse them before recycling."
+  },
+  {
+    item: "Electronics",
+    disposal: "Electronics should be recycled through electronic waste (e-waste) recycling programs or facilities. Check for local e-waste recycling options."
+  },
+  {
+    item: "Ink Cartridges",
+    disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options."
+  }
+];
+//testing recyclableItems var
+console.log(recyclableItems);
+
+
+
 
 
 // FUNCTIONS
@@ -132,8 +179,10 @@ fetch('https://api.geoapify.com/v1/ipinfo?apiKey=' + geoApifyApiKey)
 
 
 // USER INTERACTIONS
-searchBtnEl.addEventListener("DOMContentLoaded", function() {
-  console.log("click")
+
+searchBtnEl.addEventListener("click", function() {
+  console.log(searchInputEl.value)
+
 })
 
 //MODAL CODE
