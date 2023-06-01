@@ -41,8 +41,10 @@ fetch('https://api.geoapify.com/v1/ipinfo?apiKey=' + geoApifyApiKey)
 
 
 // USER INTERACTIONS
-searchBtnEl.addEventListener("DOMContentLoaded", function() {
-  console.log("click")
+
+searchBtnEl.addEventListener("click", function() {
+  console.log(searchInputEl.value)
+
 })
 
 //MODAL CODE
