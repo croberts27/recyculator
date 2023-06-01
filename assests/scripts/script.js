@@ -172,7 +172,6 @@ function fillRecycleCard() {
     recycleCard.textContent = " "
   }
   recycleCard.textContent = searchInputEl.value
-  recycleInfoEl.appendChild(recycleCard)
   
 }
 
