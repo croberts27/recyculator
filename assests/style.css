@@ -34,6 +34,8 @@ button {
 #welcome-header {
     height: 50px;
     text-align: center;
+    left: 20rem;
+    position: relative;
     font-size: 26px;
     font-variant: small-caps;
 }
@@ -53,4 +55,44 @@ button {
     font-variant: small-caps;
     padding: 1rem 1.5rem 6rem;
 }
+
+#mascot {
+    max-height: 3.75rem;
+    height: 100%;
+    max-width: 90%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    right: 0rem;
+    height: 100%;
+}
+
+#navbarBasicExample {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#js-modal-trigger {
+    background-color: #00D1B2;
+    border-color: transparent;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.zip-box {
+    width: 50%;
+    position: relative;
+    left: 19em;
+}
+
     
