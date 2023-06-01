@@ -1,5 +1,5 @@
 // DEPENDENCIES
-var searchBtnEl = document.querySelector("#search-button")
+var dropdownBtnEl = document.querySelector("#dropdown-button")
 var searchInputEl = document.querySelector("#search-input")
 
 // DATA / STATE
@@ -9,8 +9,8 @@ var searchInputEl = document.querySelector("#search-input")
 
 
 // USER INTERACTIONS
-searchBtnEl.addEventListener("click", function() {
-  console.log("click")
+dropdownBtnEl.addEventListener("click", function() {
+  console.log(searchInputEl.value)
 })
 
 // INITIALIZATIONS
