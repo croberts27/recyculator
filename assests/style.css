@@ -42,21 +42,19 @@ button {
     height: 200px;
 }
 
-#map-area {
-    height: 300px;
-}
 
 #map {
-    height: 90%;
+  
+    height: 48%;
+
   }
   
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
+
   html,
   body {
-    height: 90%;
-    margin: 0;
+    height: 100%;
+    margin: 0px;
+
     padding: 0;
   }
 
