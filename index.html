@@ -19,8 +19,8 @@
             <img src="./assests/images/recyculator-logo.jpg" id="mascot" width="120" height="28">
           </a>
         </div>
-      
         <div id="navbarBasicExample" class="navbar-menu">
+          <h1 id="welcome-header">Welcome to the recyculator!</h1>
           <div class="navbar-end">
             <a class="navbar-item" href="./assests/resources.html">
               Resources
@@ -32,10 +32,12 @@
                 Contact Us
               </a>
           </div>
-      </nav>
+    </nav>
    </header>
     <main>
-        <h2 id="welcome-header">Welcome to the recyculator!</h2>
+        <div class ="zip-box">
+            <button id="js-modal-trigger" class="button is-primary column is-full" data-target="user-location">Click here to enter your zip code!</button>
+        </div>
         <div class="columns">
             <aside class="container column is-one-quarter">
                     <input id="search-input" class="input is-primary column is-full" type="text" placeholder="What can I do with...">
@@ -64,6 +66,17 @@
                         <article class="tile is-child notification is-light"></article>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- modal code -->
+        <div id="user-location" class="modal">
+            <div class="modal-background"></div>
+        
+            <div class="modal-content">
+            <div class="box">
+                <p>Please enter your zip code!</p>
+                <input id="user-zip" class="input is-primary column is-full" type="text" placeholder="Zip Code">
+            </div>
             </div>
         </div>
     </main>
