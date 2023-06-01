@@ -18,9 +18,7 @@
     font-family: monospace;
 }
 
-#map {
-    height: 100%;
-  }
+
 
 main, main h2, main aside, main textarea, main button, main section, main div {
     border: 1px solid red;
@@ -47,6 +45,21 @@ button {
 #map-area {
     height: 300px;
 }
+
+#map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 
 .footer {
     height: 88px;
