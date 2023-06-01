@@ -145,6 +145,23 @@ console.log(recyclableItems);
 
 // FUNCTIONS
 
+$( function(){
+  var itemsToRecycle = [
+    "Plastic Bottles",
+    "Aluminum Cans",
+    "Glass Bottles",
+    "Newspapers",
+    "Cardboard",
+    "Paper",
+    "Steel Cans",
+    "Batteries",
+    "Electronics",
+    "Ink Cartridges"
+  ];
+  $("#search-input").autocomplete({
+    source: itemsToRecycle
+  });
+});
 
 // USER INTERACTIONS
 
