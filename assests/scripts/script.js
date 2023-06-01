@@ -183,7 +183,7 @@ searchBtnEl.addEventListener("click", function() {
   console.log(searchInputEl.value)
 
   fillRecycleCard()
-=======
+  searchInputEl.value = " "
   // 2. recycling locations are identified near the user's location
 
 
