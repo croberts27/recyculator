@@ -172,15 +172,18 @@ console.log(itemsToRecycle)
 });
 
 function fillRecycleCard() {
-  // if (searchInputEl.value === recyclableItem.item) {
-  //   console.log("The card will read: "+ searchInputEl.value)
-  // } 
-  // recycleCard.textContent = searchInputEl.value
-  // recycleInfoEl.appendChild(recycleCard)
+  
   var itemIndex = itemsToRecycle.indexOf(searchInputEl.value)
-  // console.log(disposalInfo[itemIndex])
+  var isItem = itemsToRecycle.includes(searchInputEl.value)
   cardHeaderEl.textContent = searchInputEl.value
-  cardContentEl.textContent = disposalInfo[itemIndex]
+
+  if (isItem) {
+    cardContentEl.textContent = disposalInfo[itemIndex]
+  } else {
+    cardContentEl.textContent = "That's a great question! Our database does not include this item yet, but you can check out our resource page for more places to search"
+  }
+  
+  
   
 }
 
