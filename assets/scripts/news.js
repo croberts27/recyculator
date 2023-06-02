@@ -9,7 +9,7 @@ var apiKey = 'ba2bdd2816374a669a90bbcd11a3db71';
 
 //FUNCTIONS
 
-var url = 'https://newsapi.org/v2/everthing?' + 'q=Recycling&' + 'from=&' + 'sortBy=popularity&' + 'apiKey=ba2bdd2816374a669a90bbcd11a3db71';
+var url = 'https://newsapi.org/v2/everthing?' + 'q=Recycling&' + 'from=&' + 'sortBy=popularity&'  + apiKey;
 
 var req = new Request(url);
 

@@ -18,10 +18,11 @@
 #news-header{
     height: 50px;
     text-align: center;
-    left: 30rem;
+    background-color: #00D1B2;
     position: relative;
-    font-size: 26px;
+    font-size: 30px;
     font-variant: small-caps;
+    left:1rem;
 }
 
 
