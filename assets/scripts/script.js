@@ -1,4 +1,3 @@
-
 // DEPENDENCIES
 var searchBtnEl = document.querySelector("#search-button")
 var searchInputEl = document.querySelector("#search-input")
@@ -54,6 +53,7 @@ var recycleCard = document.querySelector("#recycle-card")
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
   //get the recyclable items container
+
   var recyclableItemsContainer = document.getElementById('scroll-content');
 
   //Fisher-Yates algorithm - used to shuffle the recyclableItems array
@@ -255,4 +255,3 @@ searchBtnEl.addEventListener("click", function() {
 
 // initMap();
 }
-
