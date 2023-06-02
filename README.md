@@ -21,6 +21,7 @@ THEN I am presented with information on how to responsibly dispose of that mater
 ````
 
 ## Description
+This project is intended to take the mystery out of recycling. Users can get answers to two basic questions: HOW to recycle various items, and WHERE to take their recycling. Through this project, our group learned valuable skills about collaboration in the development process, including meeting in daily scrums, writing well-defined issues, making frequent commits, and how to resolve conflicts within pull requests.  We also had the opportunity to practice the skills we've learned in HTML, CSS, JavaScript, and pulling information from third-party APIs. 
 
 ## Installation 
 
@@ -35,3 +36,11 @@ World.org Database: https://www.world.org/weo/recycle
 
 
 ## License 
+MIT License
+Copyright 2023 <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
