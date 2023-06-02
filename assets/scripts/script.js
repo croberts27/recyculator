@@ -6,6 +6,21 @@ var recycleCard = document.querySelector("#recycle-card")
 
 // // DATA / STATE
 
+// User will enter their name and email into the boxes at the footer of the page
+function userFormSubmit (event){
+  event.preventDefault();
+  // target the boxes on the html 
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+// their information will be stored into local storage 
+  localStorage.setItem('recyculatorName', name);
+  localStorage.setItem('recyculatorEmail', email);
+// would like to then welcome the user back
+}
+//needed to call the listener to the submit button! its below:
+var submitButton = document.getElementById('submitButton');
+submitButton.addEventListener('click', userFormSubmit);
+
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
   //get the recyclable items container
@@ -144,8 +159,6 @@ var recyclableItems = [
 console.log(recyclableItems);
 
 // this is where empty variables will go
-
-
 
 
 // FUNCTIONS
