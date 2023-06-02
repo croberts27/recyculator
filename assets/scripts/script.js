@@ -1,3 +1,4 @@
+
 // DEPENDENCIES
 var searchBtnEl = document.querySelector("#search-button")
 var searchInputEl = document.querySelector("#search-input")
