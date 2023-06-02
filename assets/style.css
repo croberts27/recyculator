@@ -32,10 +32,11 @@ button {
 #welcome-header {
     height: 50px;
     text-align: center;
-    left: 20rem;
-    position: relative;
     font-size: 26px;
+    display: inline-flex;
     font-variant: small-caps;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 #content-cards {
