@@ -61,12 +61,25 @@ button {
 
 
 .footer {
+    display: flex;
     height: 88px;
     text-align: center;
     font-size: 16px;
     font-variant: small-caps;
-    padding: 1rem 1.5rem 6rem;
+    padding: 0rem 1.5rem 6rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    background: #fafafa;
 }
+
+.form-example {
+    text-align: center;
+}
+
+
 
 #logo {
     max-height: 3.75rem;
