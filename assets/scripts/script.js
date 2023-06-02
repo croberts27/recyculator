@@ -2,7 +2,9 @@
 var searchBtnEl = document.querySelector("#search-button")
 var searchInputEl = document.querySelector("#search-input")
 var recycleInfoEl = document.querySelector("#recyclable-items-container")
-var recycleCard = document.querySelector("#recycle-card")
+var cardHeaderEl = document.querySelector("#card-header")
+var cardContentEl = document.querySelector("#card-content")
+// var recycleCard = document.querySelector("#recycle-card")
 
 // // DATA / STATE
 
@@ -52,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 // DATA / STATE
+// this is where empty variables will go
 
 var recyclableItems = [
   {
@@ -143,7 +146,13 @@ var recyclableItems = [
 //testing recyclableItems var
 console.log(recyclableItems);
 
-// this is where empty variables will go
+var itemsToRecycle = recyclableItems.map(function(recyclableItem){
+  return recyclableItem.item;
+});
+
+var disposalInfo = recyclableItems.map(function(recyclableItem){
+  return recyclableItem.disposal;
+});
 
 
 
@@ -152,9 +161,9 @@ console.log(recyclableItems);
 
 // This is the autocomplete function- when a user starts to enter an item to recycle, the autocomplete fills in the search from the array below
 $( function(){
-  var itemsToRecycle = recyclableItems.map(function(recyclableItem){
-    return recyclableItem.item;
-  });
+  // var itemsToRecycle = recyclableItems.map(function(recyclableItem){
+  //   return recyclableItem.item;
+  // });
 
 console.log(itemsToRecycle)
   $("#search-input").autocomplete({
@@ -163,11 +172,15 @@ console.log(itemsToRecycle)
 });
 
 function fillRecycleCard() {
-  if (recycleCard.textContent !== " ") {
-    recycleCard.textContent = " "
-  }
-  recycleCard.textContent = searchInputEl.value
-  recycleInfoEl.appendChild(recycleCard)
+  // if (searchInputEl.value === recyclableItem.item) {
+  //   console.log("The card will read: "+ searchInputEl.value)
+  // } 
+  // recycleCard.textContent = searchInputEl.value
+  // recycleInfoEl.appendChild(recycleCard)
+  var itemIndex = itemsToRecycle.indexOf(searchInputEl.value)
+  // console.log(disposalInfo[itemIndex])
+  cardHeaderEl.textContent = searchInputEl.value
+  cardContentEl.textContent = disposalInfo[itemIndex]
   
 }
 
