@@ -113,7 +113,7 @@ var recyclableItems = [
     disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options."
   },
   {
-    item: "Alumnimum Cans",
+    item: "Aluminum Foil",
     disposal: "Scrunch up into a ball the size of a tennis ball.",
     alternative: "Flatten, wash and store used foil for resue at a later time."
   },
