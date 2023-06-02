@@ -101,42 +101,42 @@ var recyclableItems = [
   },
   {
     item: "Garden Hose",
-    disposal: "",
+    disposal: "DO NOT RECYCLE. These are considered tanglers and can actually disrupt the recycling process.",
     alternative: "Make it into an outdoor extension cord protector by slitting the hose along its length and pushing the extension cord inside."
   },
   {
     item: "Bricks",
-    disposal: "",
+    disposal: "A recycler has a few options for recycling the brick. It can be crushed into gravel-size pieces and used as ground cover for yards or as a substitute for mulch. Crushed into powder, it can be used on baseball diamonds, running tracks, or tennis courts. In some cases, crushed bricks can even go into making new bricks.",
     alternative: "Turn into bookshelves by stacking bricks at both ends and laying plywood between the bricks."
   },
   {
-    item: "Broom Handles",
-    disposal: "",
-    alternative: "Insert into the ground and tie small trees to it. This helps to prevent sagging, wind deformation, running over it with a lawn mower, etc."
+    item: "Brooms",
+    disposal: "Try to keep and reuse them for as long as possible",
+    alternative: "Insert the brooms handle into the ground and tie small trees to it. This helps to prevent sagging, wind deformation, running over it with a lawn mower, etc."
   },
   {
     item: "Clothes Hangers",
-    disposal: "",
+    disposal: "Include with your metal recycling and place in the container.",
     alternative: "Return to the nearest dry cleaner so they can reuse them."
   },
   {
-    item: "Pilows",
-    disposal: "",
+    item: "Pillows",
+    disposal: "You can drop off pillows to the American Textile Recycling Services (ATRS) who normally provide drop-off bins.  Alternatively, you can consider donating to a homeless shelter, animal shelter or wildlife rehabiliation center.",
     alternative: "Cut it in half, sew along the open end and make into two smaller camping pillows."
   },
   {
     item: "Motor Oil",
-    disposal: "",
-    alternative: ""
+    disposal: "Find a refinery near you where the oil can be re-fined into lubricants, processed into fuel oils, and used as raw materials for the refining and petrochemical industries.",
+    alternative: "Check with your local mechanic. They may accept used oil for recycling or repurposing."
   },
   {
     item: "Styrofoam",
-    disposal: "",
+    disposal: "Not recyclable",
     alternative: "Don't use!"
   },
   {
     item: "Carpet",
-    disposal: "",
+    disposal: "You can contact your nearest carpet supplier to confirm if they accept drop-offs.",
     alternative: "Cut into small squares or cirlces and place under the feet of heavy furniture."
   }
 ];
