@@ -196,18 +196,10 @@ console.log(recyclableItems);
 
 // This is the autocomplete function- when a user starts to enter an item to recycle, the autocomplete fills in the search from the array below
 $( function(){
-  var itemsToRecycle = [
-    "Plastic Bottles",
-    "Aluminum Cans",
-    "Glass Bottles",
-    "Newspapers",
-    "Cardboard",
-    "Paper",
-    "Steel Cans",
-    "Batteries",
-    "Electronics",
-    "Ink Cartridges"
-  ];
+  var itemsToRecycle = recyclableItems.map(function(recyclableItem){
+    return recyclableItem.item;
+  });
+
 console.log(itemsToRecycle)
   $("#search-input").autocomplete({
     source: itemsToRecycle
