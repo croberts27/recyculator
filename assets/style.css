@@ -39,8 +39,15 @@ button {
     flex-wrap: wrap;
 }
 
-#content-cards {
-    height: 200px;
+h2 {
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+    font-size: 150%;
+}
+
+#recycle-card {
+    margin: 10px;
+    border: 5px red solid;
 }
 
 
