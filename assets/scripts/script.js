@@ -53,7 +53,7 @@ var recycleCard = document.querySelector("#recycle-card")
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
   //get the recyclable items container
-  var recyclableItemsContainer = document.getElementById('recyclable-items-container');
+  var recyclableItemsContainer = document.getElementById('scroll-content');
 
   //Fisher-Yates algorithm - used to shuffle the recyclableItems array
   function shuffleArray(array){
