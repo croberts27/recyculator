@@ -14,14 +14,14 @@
 
 
 * {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     font-family: monospace;
 }
 
 
 
 main, main h2, main aside, main textarea, main button, main section, main div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
