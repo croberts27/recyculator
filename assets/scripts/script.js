@@ -195,10 +195,15 @@ function fillRecycleCard() {
   } else {
     cardContentEl.textContent = "That's a great question! Our database does not include this item yet, but you can check out our Resources page for more places to search"
     var resourceBtn = document.createElement("button")
-    resourceBtn.textContent = "Go to Resources"
+    // resourceBtn.textContent = "Go to Resources"
     resourceBtn.classList.add('button')
     resourceBtn.classList.add('is-warning')
     recycleInfoEl.appendChild(resourceBtn)
+    var resourceLink = document.createElement("a")
+    resourceLink.innerHTML = "Go to Resources"
+    resourceLink.title = "resources-link"
+    resourceLink.href = "./assets/resources.html"
+    resourceBtn.appendChild(resourceLink)
   }
   
   
