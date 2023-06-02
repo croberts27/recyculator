@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //need to shuffle the recyclableItems array
     var shuffledItems = shuffleArray(recyclableItems);
-    //need to select 5 random items from the shuffled array
+    //need to select 2 random items from the shuffled array
     var randomItems = shuffledItems.slice(0, 2);
     console.log(randomItems);
     //cycle through the random items
@@ -207,6 +207,7 @@ $( function(){
     "Electronics",
     "Ink Cartridges"
   ];
+console.log(itemsToRecycle)
   $("#search-input").autocomplete({
     source: itemsToRecycle
   });
