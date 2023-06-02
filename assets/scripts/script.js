@@ -4,51 +4,7 @@ var searchInputEl = document.querySelector("#search-input")
 var recycleInfoEl = document.querySelector("#recyclable-items-container")
 var recycleCard = document.querySelector("#recycle-card")
 
-// //creates the array of recyclable items
-// var recyclableItems = [
-//   {
-//     item: "Plastic Bottles",
-//     disposal: "Recycle plastic bottles through your local recycling program. Make sure to empty and rinse them before recycling."
-//   },
-//   {
-//     item: "Aluminum Cans",
-//     disposal: "Aluminum cans can be recycled through your local recycling program. Rinse them before recycling."
-//   },
-//   {
-//     item: "Glass Bottles",
-//     disposal: "Glass bottles can be recycled through your local recycling program. Rinse them before recycling."
-//   },
-//   {
-//     item: "Newspapers",
-//     disposal: "Newspapers can be recycled through your local recycling program. Keep them clean and dry before recycling."
-//   },
-//   {
-//     item: "Cardboard",
-//     disposal: "Cardboard can be recycled through your local recycling program. Make sure to flatten it before recycling."
-//   },
-//   {
-//     item: "Paper",
-//     disposal: "Paper can be recycled through your local recycling program. Keep it clean and dry before recycling."
-//   },
-//   {
-//     item: "Steel Cans",
-//     disposal: "Steel cans can be recycled through your local recycling program. Rinse them before recycling."
-//   },
-//   {
-//     item: "Batteries",
-//     disposal: "Batteries should be disposed of properly at battery recycling centers or designated drop-off locations. Do not put them in regular trash."
-//   },
-//   {
-//     item: "Electronics",
-//     disposal: "Electronics should be recycled through electronic waste (e-waste) recycling programs or facilities. Check for local e-waste recycling options."
-//   },
-//   {
-//     item: "Ink Cartridges",
-//     disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options."
-//   }
-// ];
 // // DATA / STATE
-
 
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
