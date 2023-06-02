@@ -1,0 +1,54 @@
+:root {
+    --alt-color-dark-green: rgb(40, 67, 10);
+    --alt-color-avocado: rgb(80, 123, 0);
+    --alt-color-light-green: rgb(167, 217, 48);
+    --alt-color-russet: rgb(123, 68, 37);
+    --alt-color-liver: rgb(99, 55, 30);
+    --alt-color-light-yellow: rgb(250, 201, 81);
+    --alt-color-jet-stream: rgb(186, 216, 214);
+    --alt-color-mint: rgb(212, 225, 205);
+    --alt-color-light-blue: rgb(216, 237, 236);
+    --alt-color-gold: rgb(205, 151, 3);
+}
+
+
+
+* {
+    border: solid red 1px;
+    font-family: monospace;
+}
+
+
+
+main, main h2, main aside, main textarea, main button, main section, main div {
+    border: 1px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#news-header{
+    height: 50px;
+    text-align: center;
+    left: 30rem;
+    position: relative;
+    font-size: 26px;
+    font-variant: small-caps;
+}
+  
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    right: 0rem;
+    height: 100%;
+}
+
+.footer {
+    height: 88px;
+    text-align: center;
+    font-size: 16px;
+    font-variant: small-caps;
+    padding: 1rem 1.5rem 6rem;
+}
+    
