@@ -7,8 +7,8 @@
     <!-- Link to jquery -->
     <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">   -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> <!--this links the bulma-->
-    <link rel="resetsheet" href="./assests/reset.css">
-    <link rel="stylesheet" href="./assests/style.css">
+    <link rel="resetsheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>RECYCULATOR</title>
 
 </head>
@@ -17,21 +17,22 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://croberts27.github.io/recyculator/">
+<<<<<<< HEAD
             <img src="./assests/images/unnamed-1.jpg" id="logo" width="150" height="150">
+=======
+            <img src="./assets/images/unnamed-5.png" id="logo" width="120" height="28">
+>>>>>>> 179349221f3a5c3ff0cc6f4cd74274c752eb0525
           </a>
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
           <h1 id="welcome-header">Welcome to the recyculator!</h1>
           <div class="navbar-end">
-            <a class="navbar-item" href="./assests/resources.html">
+            <a class="navbar-item" href="./assets/resources.html">
               Resources
             </a>
-            <a class="navbar-item" href="./assests/news.html">
+            <a class="navbar-item" href="./assets/news.html">
               News
             </a>
-            <a class="navbar-item" href="./assests/contact.html">
-                Contact Us
-              </a>
           </div>
     </nav>
    </header>
@@ -45,12 +46,20 @@
                     <input id="search-input" class="input is-primary column is-full" type="text" placeholder="What can I do with...">
                     <!-- When a user clicks the button their search request is completed -->
                     <button id="search-button" class="button is-primary column is-full">Search</button>
-                    <div>
+                    <!-- <div>
                         <p>Learn more about these common items:</p>
                         <button class="button is-light column is-full">glass</button>
                         <button class="button is-light column is-full">cardboard</button>
                         <button class="button is-light column is-full">plastic</button>
                         <button class="button is-light column is-full">wood</button>
+                    </div> -->
+                    <div id="side-info" class="tile is-ancestor">
+                        <div class="tile is-full is-parent">
+                            <article class="tile is-child notification is-warning" id="scroll-content">
+                                <!--append recyclable items here from JS array-->
+                                <!-- <div id="recycle-card"></div> -->
+                            </article>
+                        </div>
                     </div>
             </aside>
             <div class="column">
@@ -58,6 +67,7 @@
                     <div class="tile is-5 is-parent">
                         <article class="tile is-child notification is-primary" id="recyclable-items-container">
                             <!--append recyclable items here from JS array-->
+                            <div id="recycle-card"></div>
                         </article>
                     </div>
                     <div class="tile is-7 is-parent">
@@ -116,8 +126,8 @@
 <!-- This links to jquery -->
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="./assests/scripts/script.js"></script> 
-<script src="./assests/scripts/location.js"></script>
+<script src="./assets/scripts/script.js"></script> 
+<script src="./assets/scripts/location.js"></script>
 
 
 </body>
