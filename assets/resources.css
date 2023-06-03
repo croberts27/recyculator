@@ -1,3 +1,17 @@
+:root {
+    --alt-color-dark-green: rgb(40, 67, 10);
+    --alt-color-avocado: rgb(80, 123, 0);
+    --alt-color-light-green: rgb(167, 217, 48);
+    --alt-color-russet: rgb(123, 68, 37);
+    --alt-color-liver: rgb(99, 55, 30);
+    --alt-color-light-yellow: rgb(250, 201, 81);
+    --alt-color-jet-stream: rgb(186, 216, 214);
+    --alt-color-mint: rgb(212, 225, 205);
+    --alt-color-light-blue: rgb(216, 237, 236);
+    --alt-color-gold: rgb(205, 151, 3);
+    --alt-color-danger: #F14668;
+}
+
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 /* border: solid red; */
@@ -19,10 +33,21 @@ main h1{
 }
 main {
     height: 600px;
+    background-color:lemonchiffon;
 }
 
 footer{
     text-align: center;
     padding: 20px;
     background-color: #00D1B2;
+}
+
+.title {
+    background-color: #F14668;
+    color:#ffff;
+}
+
+.subtitle {
+    text-align:center;
+    font-size: 24px;
 }
