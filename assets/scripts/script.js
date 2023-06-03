@@ -1,9 +1,14 @@
 // DEPENDENCIES
 var searchBtnEl = document.querySelector("#search-button")
 var searchInputEl = document.querySelector("#search-input")
+// The following variables fill in the green tile when someone enters a search
 var recycleInfoEl = document.querySelector("#recyclable-items-container")
 var cardHeaderEl = document.querySelector("#card-header")
+var disposalHeaderEl = document.querySelector("#how-to-recycle")
 var cardContentEl = document.querySelector("#card-content")
+var altHeaderEl = document.querySelector("#alternative-uses")
+var altContentEl = document.querySelector("#alternative-content")
+
 // var recycleCard = document.querySelector("#recycle-card")
 
 // // DATA / STATE
@@ -74,43 +79,53 @@ document.addEventListener("DOMContentLoaded", function(){
 var recyclableItems = [
   {
     item: "Plastic Bottles",
-    disposal: "Make sure to empty and rise them before recycling."
+    disposal: "Make sure to empty and rise them before recycling.",
+    alternative: ""
   },
   {
     item: "Aluminum Cans",
-    disposal: "Make sure to rinse them before recycling."
+    disposal: "Make sure to rinse them before recycling.",
+    alternative: ""
   },
   {
     item: "Glass Bottles",
     disposal: "Make sure to rinse them before recycling.",
+    alternative: ""
   },
   {
     item: "Newspapers",
-    disposal: "Make sure to keep them clean and dry before recycling."
+    disposal: "Make sure to keep them clean and dry before recycling.",
+    alternative: ""
   },
   {
     item: "Cardboard",
-    disposal: "Make sure to flatten it before recycling."
+    disposal: "Make sure to flatten it before recycling.",
+    alternative: ""
   },
   {
     item: "Paper",
-    disposal: "Make sure to keep it clean and dry before recycling."
+    disposal: "Make sure to keep it clean and dry before recycling.",
+    alternative: ""
   },
   {
     item: "Steel Cans",
-    disposal: "Make sure to rinse them before recycling."
+    disposal: "Make sure to rinse them before recycling.",
+    alternative: ""
   },
   {
     item: "Batteries",
-    disposal: "Make sure to rinse them before recycling."
+    disposal: "Make sure to rinse them before recycling.",
+    alternative: ""
   },
   {
     item: "Electronics",
-    disposal: "Electronics should be recycled through electronic waste (e-waste) recycling programs or facilities. Check for local e-waste recycling options."
+    disposal: "Electronics should be recycled through electronic waste (e-waste) recycling programs or facilities. Check for local e-waste recycling options.",
+    alternative: ""
   },
   {
     item: "Ink Cartridges",
-    disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options."
+    disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options.",
+    alternative: ""
   },
   {
     item: "Aluminum Foil",
@@ -169,6 +184,10 @@ var disposalInfo = recyclableItems.map(function(recyclableItem){
   return recyclableItem.disposal;
 });
 
+var alternativeInfo = recyclableItems.map(function(recyclableItem){
+  return recyclableItem.alternative;
+});
+
 
 // FUNCTIONS
 
@@ -191,7 +210,11 @@ function fillRecycleCard() {
   cardHeaderEl.textContent = searchInputEl.value
 
   if (isItem) {
+    disposalHeaderEl.textContent = "How to Recycle:"
     cardContentEl.textContent = disposalInfo[itemIndex]
+    altHeaderEl.textContent = "Alternatives to Recycling:"
+    altContentEl.textContent = alternativeInfo[itemIndex]
+   
   } else {
     cardContentEl.textContent = "That's a great question! Our database does not include this item yet, but you can check out our Resources page for more places to search"
     var resourceBtn = document.createElement("button")
