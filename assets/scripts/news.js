@@ -47,9 +47,9 @@ fetch(url, options)
         document.getElementById('story-1').textContent = data.results[1].title
         document.getElementById('link-1').textContent = data.results[1].link
         document.getElementById('link-1').href = data.results[1].link
-        document.getElementById('story-2').textContent = data.results[3].title
-        document.getElementById('link-2').textContent = data.results[3].link
-        document.getElementById('link-2').href = data.results[3].link
+        document.getElementById('story-2').textContent = data.results[4].title
+        document.getElementById('link-2').textContent = data.results[4].link
+        document.getElementById('link-2').href = data.results[4].link
         document.getElementById('story-3').textContent = data.results[7].title
         document.getElementById('link-3').textContent = data.results[7].link
         document.getElementById('link-3').href = data.results[7].link
