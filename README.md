@@ -31,8 +31,9 @@ No installation is required to access this web page! Please refer to the followi
 
 ## Credits
 
-Recycle Nation API: https://recyclenation.com/recycling-api/
-World.org Database: https://www.world.org/weo/recycle
+- Recycle Nation API: https://recyclenation.com/recycling-api/
+- World.org Database: https://www.world.org/weo/recycle
+- News Data API from Rapid API: https://rapidapi.com/algodom-media-algodom-media-default/api/newsdata2
 
 
 ## License 
