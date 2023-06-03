@@ -5,26 +5,45 @@ var newsContent3 = document.getElementsByClassName("content-3")
 
 //DATA
 
-var url = "http://api.mediastack.com/v1/news?access_key=ae6dfa625df6421a33447d4a1dcb0e49&keywords=recycling&limit=4";
-
-// var corsURL = "https://cors-anywhere.herokuapp.com/";
-
+//This api allows 200 calls per day
+const url = 'https://newsdata2.p.rapidapi.com/news?language=en&q=sustainability%20AND%20recycling';
 
 //FUNCTIONS
 
-fetch(url)
+// good template to use for fetch requests
+//  fetch(url)
+//     .then(function(response){
+//         return response.json();
+//     })
+//     .then(function(news) {
+//         console.log(news);
+//         document.getElementById("story-1").textContent = news.data[1].title
+//         document.getElementById('link-1').textContent = news.data[1].url
+//         document.getElementById('link-1').href = news.data[1].url
+//         document.getElementById('story-2').textContent = news.data[2].title
+//         document.getElementById('link-2').textContent = news.data[2].url
+//         document.getElementById('link-2').href = news.data[2].url
+//         document.getElementById("story-3").textContent = news.data[3].title
+//         document.getElementById('link-3').textContent = news.data[3].url
+//         document.getElementById('link-3').href = news.data[3].url
+//     });
+
+
+
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'a96648bf97msh07572d567100729p1b9b8cjsn3bc7717c8d90',
+		'X-RapidAPI-Host': 'newsdata2.p.rapidapi.com'
+	}
+};
+
+fetch(url, options)
     .then(function(response){
-        return response.json();
+        return response.json()
     })
-    .then(function(news) {
-        console.log(news);
-        document.getElementById("story-1").textContent = news.data[1].title
-        document.getElementById('link-1').textContent = news.data[1].url
-        document.getElementById('link-1').href = news.data[1].url
-        document.getElementById('story-2').textContent = news.data[2].title
-        document.getElementById('link-2').textContent = news.data[2].url
-        document.getElementById('link-2').href = news.data[2].url
-        document.getElementById("story-3").textContent = news.data[3].title
-        document.getElementById('link-3').textContent = news.data[3].url
-        document.getElementById('link-3').href = news.data[3].url
-    });
+    .then(function(data){
+        console.log(data)
+        document.getElementById('story-1').textContent = data.results[1].title
+        document.getElementById('link-1').textContent = data.results[1].link
+    })
