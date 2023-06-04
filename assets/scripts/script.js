@@ -37,10 +37,19 @@ function clearForm (){
 
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
+//LETS ADD THE USER GREETING TO THE PAGE WHEN IT LOADS
+  //define the variable to capture the data from local storage
+  var storedName = localStorage.getItem("recyculatorName")
+  //if statement to greet the user when they land on the screen
+  if (storedName) {
+    var greetingElement = document.getElementById("userName");
+    greetingElement.textContent = 'Welcome back ' + storedName + '!';
+  };
+
+
+//THIS IS WHAT IS DRIVING THE SHUFFLE OF THE ARRAY ON THE YELLOW BOX
   //get the recyclable items container
-
   var recyclableItemsContainer = document.getElementById('scroll-content');
-
   //Fisher-Yates algorithm - used to shuffle the recyclableItems array
   function shuffleArray(array){
     var currentIndex = array.length;
@@ -56,7 +65,6 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     return array;
   }
-
     //need to shuffle the recyclableItems array
     var shuffledItems = shuffleArray(recyclableItems);
     //need to select 2 random items from the shuffled array
