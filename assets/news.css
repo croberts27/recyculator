@@ -44,15 +44,44 @@ main {
     height: 600px;
 }
 
-.footer{
+/* .footer{
     background-color: #00D1B2;
     height: 88px;
     text-align: center;
     font-size: 16px;
     font-variant: small-caps;
     padding: 1rem 1.5rem 6rem;
+} */
+
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: #00D1B2;
 }
 
 .tile.is-parent {
     padding:0%;
+}
+
+.title:not(:last-child) {
+    margin-bottom:1rem;
+}
+
+#logo {
+    max-height: 3.75rem;
+    height: 175%;
+    max-width: 150%;
+    border: 10px;
+    border-radius: 5%;
+}
+
+#story-1, #story-2, #story-3 {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.125;
 }
