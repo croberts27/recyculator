@@ -26,7 +26,14 @@ function userFormSubmit (event){
 }
 //needed to call the listener to the submit button! its below:
 var submitButton = document.getElementById('submitButton');
-submitButton.addEventListener('click', userFormSubmit);
+submitButton.addEventListener('click', userFormSubmit)
+submitButton.addEventListener('click', clearForm)
+
+function clearForm (){
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+}
+
 
 //trying out domcontentloaded
 document.addEventListener("DOMContentLoaded", function(){
