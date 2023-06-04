@@ -261,14 +261,13 @@ searchBtnEl.addEventListener("click", function() {
 // INITIALIZATIONS
 
 
-    let map;
+//   let map;
 
-  function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 40.809013027658104,  lng:  -73.96227161360441 },
-    zoom: 8,
-  });
+//   function initMap() {
+//   map = new google.maps.Map(document.getElementById("map"), {
+//     center: { lat: 40.809013027658104,  lng:  -73.96227161360441 },
+//     zoom: 8,
+//   });
 
-
-// initMap();
-}
+// // initMap();
+// }
