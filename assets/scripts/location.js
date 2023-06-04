@@ -1,8 +1,6 @@
 //DEPENDENCIES
 
-
 //DATA
-
 
 //FUNCTIONS
 let map;
@@ -53,7 +51,7 @@ function failure(){
 function searchNearbyRecyclingCenters(coords, map){
   var request = {
     location: coords,
-    radius: '50000',
+    radius: '16094', //google uses meters - 10 miles = 16093.4 meters
     type: ['local_government_office']
   };
   var service = new google.maps.places.PlacesService(map);
@@ -67,6 +65,7 @@ function callback(results, status){
       console.log(results[i]);
     }
   }
+
 };
 
 function createMarker(place){
@@ -79,6 +78,8 @@ function createMarker(place){
     infoWindow.setContent(place.name);
     infoWindow.open(map, this);
   });
+  document.getElementById('recycling-center-name').textContent = "Name: " + place.name;
+  document.getElementById('recycling-address').textContent = "Address: " + place.formatted_address;
 };
 
 
@@ -88,6 +89,7 @@ var geoApifyApiKey = "e2e76a6a2e2341f681a4abfd52c7ec27";
 
 fetch('https://api.geoapify.com/v1/ipinfo?apiKey=' + geoApifyApiKey)
     .then(response => response.json())
+    .then(result => console.log(result.name))
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
 
