@@ -5,8 +5,6 @@ var newsContent3 = document.getElementsByClassName("content-3")
 
 //DATA
 
-//This api allows 200 calls per day
-const url = 'https://newsdata2.p.rapidapi.com/news?language=en&q=sustainability%20AND%20recycling';
 
 //FUNCTIONS
 
@@ -28,6 +26,8 @@ const url = 'https://newsdata2.p.rapidapi.com/news?language=en&q=sustainability%
 //         document.getElementById('link-3').href = news.data[3].url
 //     });
 
+//This api allows 200 calls per day
+const url = 'https://newsdata2.p.rapidapi.com/news?language=en&q=sustainability%20AND%20recycling';
 
 
 const options = {
