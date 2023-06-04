@@ -80,12 +80,13 @@ var recyclableItems = [
   {
     item: "Plastic Bottles",
     disposal: "Make sure to empty and rise them before recycling.",
-    alternative: ""
+    alternative: "Fill clean bottles with unrecyclable plastic to make eco-bricks"
   },
   {
     item: "Aluminum Cans",
-    disposal: "Make sure to rinse them before recycling.",
-    alternative: ""
+    disposal: "Rinse and drain before recycling. Do not crush cans as they can end up sorted in the wrong place.",
+    // source: https://www.familyhandyman.com/article/why-you-shouldnt-crush-aluminum-cans/#:~:text=That%20means%20crushed%20cans%20may,Here's%20why.
+    alternative: "Several charities collect the tabs of aluminum cans. Gather aluminum tabs and find a local charity drop-off"
   },
   {
     item: "Glass Bottles",
@@ -105,7 +106,7 @@ var recyclableItems = [
   {
     item: "Paper",
     disposal: "Make sure to keep it clean and dry before recycling.",
-    alternative: ""
+    alternative: "Check your local post office to see if they accept paper recycling"
   },
   {
     item: "Steel Cans",
@@ -120,12 +121,13 @@ var recyclableItems = [
   {
     item: "Electronics",
     disposal: "Electronics should be recycled through electronic waste (e-waste) recycling programs or facilities. Check for local e-waste recycling options.",
-    alternative: ""
+    // source: https://www.bestbuy.com/site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025
+    alternative: "Best Buy offers recycling for electronics. You can drop off up to three items per day at a Best Buy location"
   },
   {
     item: "Ink Cartridges",
-    disposal: "Ink cartridges can be recycled through various cartridge recycling programs. Check with office supply stores or manufacturers for recycling options.",
-    alternative: ""
+    disposal: "Ink cartridges can be recycled through various cartridge recycling programs.",
+    alternative: "Drop your empty ink cartridges at Walmart, Target, Best Buy, or any office supply store."
   },
   {
     item: "Aluminum Foil",
@@ -154,8 +156,8 @@ var recyclableItems = [
   },
   {
     item: "Pillows",
-    disposal: "You can drop off pillows to the American Textile Recycling Services (ATRS) who normally provide drop-off bins.  Alternatively, you can consider donating to a homeless shelter, animal shelter or wildlife rehabiliation center.",
-    alternative: "Cut it in half, sew along the open end and make into two smaller camping pillows."
+    disposal: "You can drop off pillows to the American Textile Recycling Services (ATRS) who normally provide drop-off bins.  ",
+    alternative: "Cut it in half, sew along the open end and make into two smaller camping pillows. Consider donating to a homeless shelter, animal shelter or wildlife rehabiliation center."
   },
   {
     item: "Motor Oil",
@@ -164,13 +166,18 @@ var recyclableItems = [
   },
   {
     item: "Styrofoam",
-    disposal: "Not recyclable",
-    alternative: "Don't use!"
+    disposal: "Search for a local recycling center that specifically allows styrofoam, also known as polystyrene",
+    alternative: "Use non-styrofoam cups and containers to reduce styrofoam waste"
   },
   {
     item: "Carpet",
     disposal: "You can contact your nearest carpet supplier to confirm if they accept drop-offs.",
     alternative: "Cut into small squares or cirlces and place under the feet of heavy furniture."
+  },
+  {
+    item: "Plastic Bags",
+    disposal: "Collect and take to a local supermarket for recycling",
+    alternative: "Reuse as a small trash bag"
   }
 ];
 //testing recyclableItems var
