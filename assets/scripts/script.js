@@ -12,6 +12,7 @@ var altContentEl = document.querySelector("#alternative-content")
 // var recycleCard = document.querySelector("#recycle-card")
 
 // // DATA / STATE
+var resourceBtn;
 
 // User will enter their name and email into the boxes at the footer of the page
 function userFormSubmit (event){
@@ -240,7 +241,7 @@ function fillRecycleCard() {
    
   } else {
     cardContentEl.textContent = "That's a great question! Our database does not include this item yet, but you can check out our Resources page for more places to search"
-    var resourceBtn = document.createElement("button")
+    resourceBtn = document.createElement("button")
     // a W3 schools articles gave information on how to create a link within JavaScript (see README for the link)
     resourceBtn.classList.add('button')
     resourceBtn.classList.add('is-warning')
@@ -261,9 +262,22 @@ function fillRecycleCard() {
 searchBtnEl.addEventListener("click", function() {
   // 1. the search returns a card with information on the recyclable item
   console.log(searchInputEl.value)
-
+  if (disposalHeaderEl.textContent !== "") {
+    disposalHeaderEl.textContent = ""
+  };
+  if (altHeaderEl.textContent !== "") {
+    altHeaderEl.textContent = ""
+  };
+  if (altContentEl.textContent !== "") {
+    altContentEl.textContent = ""
+  }
+  if (resourceBtn) {
+    resourceBtn.remove()
+  }
   fillRecycleCard()
   searchInputEl.value = ""
+  
+
   // 2. recycling locations are identified near the user's location
 
 
