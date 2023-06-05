@@ -34,6 +34,8 @@ No installation is required to access this web page! Please refer to the followi
 - Recycle Nation API: https://recyclenation.com/recycling-api/
 - World.org Database: https://www.world.org/weo/recycle
 - News Data API from Rapid API: https://rapidapi.com/algodom-media-algodom-media-default/api/newsdata2
+- Information on Brick Recyling: https://earth911.com/home-garden/brick-recycling/#:~:text=A%20recycler%20has%20a%20few,go%20into%20making%20new%20bricks
+- Information on Aluminum Foil Recycling: https://www.whichbin.sa.gov.au/tips/yellow-bin-aluminium-foil#:~:text=Aluminium%20foil%20can%20be%20recycled,big%20enough%20to%20be%20recycled
 
 
 ## License 
