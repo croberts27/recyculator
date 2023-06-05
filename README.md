@@ -28,6 +28,7 @@ This project is intended to take the mystery out of recycling. Users can get ans
 No installation is required to access this web page! Please refer to the following deployment link to access the page: https://croberts27.github.io/recyculator/
 
 ## Screenshot
+<img src="./assets/images/deployed-page.png" alt="screenshot of deployed webpage">
 
 ## Credits
 Class member Christopher Lee helped us pin locations onto Google Maps. We also used the code provided in the Google Maps documentation as a starting point. Access the page here: https://developers.google.com/maps/documentation/javascript/places#find_place_from_query.
@@ -44,8 +45,16 @@ We learned recycling information from the following sources:
 - World.org Database: https://www.world.org/weo/recycle
 - Which Bin Tips (aluminium) - https://www.whichbin.sa.gov.au/tips/yellow-bin-aluminium-foil#:~:text=Aluminium%20foil%20can%20be%20recycled,big%20enough%20to%20be%20recycled
 - News Data API from Rapid API: https://rapidapi.com/algodom-media-algodom-media-default/api/newsdata2
+
 - Recycling electronics at Best Buy: https://www.bestbuy.com/site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025
 - How to recycle aluminum cans: https://www.familyhandyman.com/article/why-you-shouldnt-crush-aluminum-cans/#:~:text=That%20means%20crushed%20cans%20may,Here's%20why.
+
+
+
+
+- Information on Brick Recyling: https://earth911.com/home-garden/brick-recycling/#:~:text=A%20recycler%20has%20a%20few,go%20into%20making%20new%20bricks
+- Information on Aluminum Foil Recycling: https://www.whichbin.sa.gov.au/tips/yellow-bin-aluminium-foil#:~:text=Aluminium%20foil%20can%20be%20recycled,big%20enough%20to%20be%20recycled
+
 
 
 ## License 
