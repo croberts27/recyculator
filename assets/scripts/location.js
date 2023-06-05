@@ -5,6 +5,7 @@
 
 
 //FUNCTIONS
+// Class member Christopher Lee showed how he made this function work within his project. We also adapted code from the Google Maps documentation (see link in the README)
 let map;
 
   function initMap() {

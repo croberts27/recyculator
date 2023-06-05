@@ -13,7 +13,7 @@ GIVEN an application that identifies waste disposal sites
 WHEN I search my location
 THEN I am presented with a map of recycling facilities near me
 WHEN I enter a type of waste
-THEN I am shown if that  waste can be recycled
+THEN I am shown if that waste can be recycled
 WHEN I choose a facility
 THEN I am given information on that facility
 WHEN I search for a material that is not recyclable
@@ -44,6 +44,8 @@ We learned recycling information from the following sources:
 - World.org Database: https://www.world.org/weo/recycle
 - Which Bin Tips (aluminium) - https://www.whichbin.sa.gov.au/tips/yellow-bin-aluminium-foil#:~:text=Aluminium%20foil%20can%20be%20recycled,big%20enough%20to%20be%20recycled
 - News Data API from Rapid API: https://rapidapi.com/algodom-media-algodom-media-default/api/newsdata2
+- Recycling electronics at Best Buy: https://www.bestbuy.com/site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025
+- How to recycle aluminum cans: https://www.familyhandyman.com/article/why-you-shouldnt-crush-aluminum-cans/#:~:text=That%20means%20crushed%20cans%20may,Here's%20why.
 
 
 ## License 
