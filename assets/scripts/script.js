@@ -198,6 +198,7 @@ var recyclableItems = [
 //testing recyclableItems var
 console.log(recyclableItems);
 
+// Our instructor Ben Wright showed us how to create a new array from an existing array
 var itemsToRecycle = recyclableItems.map(function(recyclableItem){
   return recyclableItem.item;
 });
@@ -226,7 +227,7 @@ console.log(itemsToRecycle)
 });
 
 function fillRecycleCard() {
-  
+  // .indexOf() and .includes() were found in an article on freecodecamp.org (link in the README)
   var itemIndex = itemsToRecycle.indexOf(searchInputEl.value)
   var isItem = itemsToRecycle.includes(searchInputEl.value)
   cardHeaderEl.textContent = searchInputEl.value
@@ -240,7 +241,7 @@ function fillRecycleCard() {
   } else {
     cardContentEl.textContent = "That's a great question! Our database does not include this item yet, but you can check out our Resources page for more places to search"
     var resourceBtn = document.createElement("button")
-    // resourceBtn.textContent = "Go to Resources"
+    // a W3 schools articles gave information on how to create a link within JavaScript (see README for the link)
     resourceBtn.classList.add('button')
     resourceBtn.classList.add('is-warning')
     recycleInfoEl.appendChild(resourceBtn)
