@@ -30,9 +30,19 @@ No installation is required to access this web page! Please refer to the followi
 ## Screenshot
 
 ## Credits
+Class member Christopher Lee helped us pin locations onto Google Maps. We also used the code provided in the Google Maps documentation as a starting point. Access the page here: https://developers.google.com/maps/documentation/javascript/places#find_place_from_query.
 
+Our instructor, Ben Wright, showed us how to create a new array from objects within an existing array.
+
+The following sources were used to learn about different coding methods:
+- In the script.js file lines 234-243, we used the following article to learn how to create a button with a link within a JavaScript file: 'How to Create a Link in JavaScript' - https://www.3schools.in/2021/11/how-to-create-link-in-javascript.html#:~:text=There%20are%20some%20steps%20to,element%20with%20aTag.
+- In the script.js file lines 222 and 223, we used two methods to search an array: .indexOf() and .includes(). The source for this is found in the following article: 'Four Different Ways to Search and Array in JavaScript' - https://www.freecodecamp.org/news/4-methods-to-search-an-array/#:~:text=Use%20filter%20if%20you%20want,particular%20item%20in%20an%20array.
+
+We learned recycling information from the following sources:
+- Recycling Mystery: Brick - https://earth911.com/home-garden/brick-recycling/#:~:text=A%20recycler%20has%20a%20few,go%20into%20making%20new%20bricks
 - Recycle Nation API: https://recyclenation.com/recycling-api/
 - World.org Database: https://www.world.org/weo/recycle
+- Which Bin Tips (aluminium) - https://www.whichbin.sa.gov.au/tips/yellow-bin-aluminium-foil#:~:text=Aluminium%20foil%20can%20be%20recycled,big%20enough%20to%20be%20recycled
 - News Data API from Rapid API: https://rapidapi.com/algodom-media-algodom-media-default/api/newsdata2
 
 
