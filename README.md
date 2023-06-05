@@ -28,6 +28,7 @@ This project is intended to take the mystery out of recycling. Users can get ans
 No installation is required to access this web page! Please refer to the following deployment link to access the page: https://croberts27.github.io/recyculator/
 
 ## Screenshot
+<img src="./assets/images/deployed-page.png" alt="screenshot of deployed webpage">
 
 ## Credits
 
